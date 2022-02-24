@@ -1,2 +1,5 @@
 # KF-Interoperability-Rules
-KF Interoperability Rules implemented in crowd tool
+
+Set of Interoperability Rules currently implemented in the tool crowd 2.0 
+
+https://crowd-app.fi.uncoma.edu.ar/ 
