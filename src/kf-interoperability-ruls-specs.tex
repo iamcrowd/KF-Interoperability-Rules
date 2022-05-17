@@ -83,8 +83,25 @@
 \setlength{\dashlinegap}{2pt}
 
 This document includes the set of Interoperability Rules currently implemented in the tool \crowdtwo\footnote{\url{https://crowd-app.fi.uncoma.edu.ar/}} 
+The set is divided into the following subsets: UML/KF, ER/KF, ORM2/KF, MM/MM, DL/KF, KF/DL and KF/CNL rules. The first three subset also include the respective KF/UML, KF/ER and KF/ORM2 rules.
 
+Each rule is schematized as follows.
+\\ \
 
+({\bf Name}) Origin primitive $\overset{\text{Rule}}{\xLongrightarrow{\hspace*{1.4cm}}}${\tt Target primitive}\\
+\hspace*{0.3cm}in: Rule inputs\\
+\hspace*{0.5cm}out: {\tt Rule outputs}\\
+
+where:
+
+\begin{itemize}
+\item \textbf{Origin primitive}: it is the primitive name to be mapped to the target language.
+\item \textbf{Rule}: it indicates the type of rule (UML/KF, ER/KF, ORM2/KF, MM/MM, DL/KF, KF/DL, KF/CNL, KF/UML, KF/ER or KF/ORM2)
+\item \textbf{Target primitive}: it is the primitive name in the target language.
+\item \textbf{Rule inputs}: set of entities, relationships and constraints required by the origin primitive for mapping to the target primitive in the respective language.
+\item \textbf{Rule inputs}: set of entities, relationships and constraints mapped in the target language.
+\end{itemize}
+ 
 
 %({\bf MM-UC-1}) $\overset{\text{KF}}{\xLongrightarrow{\hspace*{1.4cm}}}$ {\tt Uniqueness constraint}\\
 %\hspace*{0.3cm}in: {\tt Role} \\
